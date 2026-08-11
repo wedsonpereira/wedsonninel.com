@@ -1,7 +1,7 @@
 import profile  from '../Data/HomePage/Hero.ts'
 import Button from "../Components/Button.tsx";
 import { Link } from "react-router-dom";
-import heroImage from "../../public/hero.jpeg"
+import heroImage from "../assets/Home/hero.jpeg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload, faGlobe} from "@fortawesome/free-solid-svg-icons";
 
