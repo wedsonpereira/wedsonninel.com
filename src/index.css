@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Montaga&family=Sekuya&display=swap');
 @import "tailwindcss";
 
+
+body{
+    max-width: 2000px;
+    margin: auto;
+}
+
 *{
     font-family: 'DM Sans', sans-serif;
 }

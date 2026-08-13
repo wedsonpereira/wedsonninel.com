@@ -8,7 +8,7 @@ import {faDownload, faGlobe} from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
     return (
-        <div className={"flex items-center justify-between h-screen bg-olive-200"}>
+        <div className={"flex items-center justify-between h-screen max-h-280 overflow-hidden bg-olive-200"}>
             <div className={"flex justify-center flex-col w-[50%] gap-5"}>
                 <div className={"m-auto w-3/4"}>
                     <h1 className={"text-5xl font-bold"}>Hi I'm {profile?.profileInfo.profileName}</h1>
