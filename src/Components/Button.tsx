@@ -13,7 +13,7 @@ const Button = ({text,variant,children,className}: String) => {
         <>
             {variant === "simple" &&
                 <div
-                    className={`w-max py-1 px-3 cursor-pointer rounded  transition ${className} hover:border`}>
+                    className={`w-max py-2 px-3 cursor-pointer rounded border transition ${className} hover:bg-white `}>
                     {text}
                     {children}
                 </div>

@@ -16,7 +16,7 @@ const NavBar = () => {
                 <Button text={"Home"} variant={"bordered"} className={"h-full rounded-none border-none hover:bg-black place-content-center"}/>
                 <Button text={"Services"} variant={"bordered"}  className={"h-full rounded-none border-none hover:bg-black place-content-center"}/>
                 <Button text={"Experience"} variant={"bordered"} className={"h-full rounded-none border-none hover:bg-black place-content-center"} />
-                <Button text={"Resume"} variant={"bordered"} className={"h-full rounded-none border-none hover:bg-black place-content-center"} />
+                <Button text={"Certifications"} variant={"bordered"} className={"h-full rounded-none border-none hover:bg-black place-content-center"} />
                 <Button text={"Let's Connect"} variant={"bordered"} className={"flex items-center justify-between gap-1 h-full rounded-none text-white bg-black border-none place-content-center"}>
                     <FontAwesomeIcon icon={faArrowRightLong} className={"-rotate-45"} />
                 </Button>

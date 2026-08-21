@@ -1,12 +1,12 @@
-import SectionHeader from "../Components/SectionHeader.tsx";
-import project from "../Data/HomePage/Projects.ts"
+import SectionHeader from "../../Components/SectionHeader.tsx";
+import project from "../../Data/HomePage/Projects.ts"
 import {FirebaseIcon, NextjsIcon, TypescriptIconRound,NodejsIcon} from "@dev.icons/react";
 import "./Home.css"
 
 
 const Projects = () => {
     return (
-        <div className={""}>
+        <div className={"mb-20"}>
             <SectionHeader title="Projects" subtitle={"Developed & Deployed On Server"}/>
             <div className={"m-auto w-[88%] pc-container"}>
                <Card/>

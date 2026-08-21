@@ -1,7 +1,7 @@
-import profile  from '../Data/HomePage/Hero.ts'
-import Button from "../Components/Button.tsx";
+import profile  from '../../Data/HomePage/Hero.ts'
+import Button from "../../Components/Button.tsx";
 import { Link } from "react-router-dom";
-import heroImage from "../assets/Home/hero.jpeg"
+import heroImage from "../../assets/Home/hero.jpeg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload, faGlobe} from "@fortawesome/free-solid-svg-icons";
 
@@ -14,7 +14,7 @@ const Hero = () => {
                     <h1 className={"text-5xl font-bold"}>Hi I'm {profile?.profileInfo.profileName}</h1>
                     <h1 className={"text-2xl leading-16 underline"}>{profile.profileInfo.heroTitle}</h1>
                     <div className={"flex flex-col gap-4"}>
-                        <p className={"text-xl leading-8"}>
+                        <p className={"text-xl leading-8"} >
                         {profile?.profileInfo.heroIntro}
                     </p>
                         <p className={"text-xl leading-8"}>
